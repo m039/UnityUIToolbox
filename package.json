@@ -1,0 +1,20 @@
+{
+  "name": "com.m039.unity-ui-toolbox",
+  "version": "0.1.0",
+  "displayName": "Unity UI Toolbox",
+  "description": "A collection of premade assets to help build UI for my projects",
+  "unity": "2022.3",
+  "keywords": [
+    "ui",
+    "tools",
+    "utils"
+  ],
+  "author": {
+    "name": "Dmitry Mozgin",
+    "url": "http://twitter.com/m0391n"
+  },
+  "dependencies": {
+    "com.m039.common-unity-library": "0.2.0",
+    "com.unity.textmeshpro": "3.0.6"
+  }
+}
