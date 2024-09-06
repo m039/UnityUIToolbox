@@ -2,6 +2,8 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
+
 
 #if UNITY_EDITOR
 using UnityEditor.UI;
@@ -77,6 +79,13 @@ namespace m039.UIToolbox
             DoStateTransitionInternal(_DebugSelectionState);
         }
 #endif
+
+        public override void OnPointerUp(PointerEventData eventData)
+        {
+            base.OnPointerUp(eventData);
+
+            EventSystem.current?.SetSelectedGameObject(null);
+        }
 
         protected override void DoStateTransition(SelectionState state, bool instant)
         {
