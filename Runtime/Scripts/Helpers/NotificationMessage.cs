@@ -1,7 +1,7 @@
 using m039.Common.DependencyInjection;
 using UnityEngine;
 
-namespace Game
+namespace m039.UIToolbox
 {
     public class NotificationMessage : MonoBehaviour, IDependencyProvider
     {

@@ -1,7 +1,7 @@
 using m039.Common.DependencyInjection;
 using UnityEngine;
 
-namespace Game
+namespace m039.UIToolbox
 {
     public class FPSCounter : MonoBehaviour, IDependencyProvider
     {
@@ -48,7 +48,7 @@ namespace Game
 
             if (_count <= 0)
             {
-                var fps = (int)(SamplesCount / _totalTime);
+                var fps = SamplesCount / _totalTime;
                 var color = _NormalLoadColor;
 
                 if (fps < HighLoadFPS)
