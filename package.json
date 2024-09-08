@@ -1,7 +1,7 @@
 {
   "name": "com.m039.ui-toolbox",
   "version": "0.1.1",
-  "displayName": "Unity UI Toolbox",
+  "displayName": "UI Toolbox",
   "description": "A collection of premade assets to help build UI for my projects",
   "unity": "2022.3",
   "keywords": [
